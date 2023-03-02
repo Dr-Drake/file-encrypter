@@ -1,6 +1,6 @@
 ## Getting Started
 
-Run the project using an of the following commands:
+Run the project using any of the following commands:
 
 ```bash
 yarn start
