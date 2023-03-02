@@ -1,0 +1,27 @@
+{
+  "name": "file-encrypter",
+  "version": "1.0.0",
+  "description": "This is a cli tool used for encrypting and decrypting text files.",
+  "main": "index.js",
+  "author": "Ikem Ezechukwu",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "yarn tsc && node ./bin/index.js",
+    "start:dev": "npx ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.14.4",
+    "chalk": "4.1.2",
+    "cli-progress": "^3.12.0",
+    "inquirer": "^8.0.0",
+    "progress-stream": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.0",
+    "@types/inquirer": "^9.0.3",
+    "@types/progress-stream": "^2.0.2",
+    "ts-node": "^10.9.1"
+  }
+}
